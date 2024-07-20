@@ -12,12 +12,12 @@ $(document).ready(function () {
 //Monta as páginas de Cabeçalho e Rodapé:
 $(document).ready(function () {
     // *** Linha abaixo foi alterada ***
-    let inicio = '.'
+    let inicioDir = '.'
     if(pathName != "index.html"){
-        inicio = '..'
+        inicioDir = '..'
     }
-    $('#header').load(`${inicio}/paginas/includes/header.html`);
-    $('#footer').load(`${inicio}/paginas/includes/footer.html`);
+    $('#header').load(`${inicioDir}/paginas/includes/header.html`);
+    $('#footer').load(`${inicioDir}/paginas/includes/footer.html`);
 });
 // Outra forma de montar uma página:
 // $(document).ready(function () {
