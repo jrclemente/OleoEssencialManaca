@@ -10,8 +10,8 @@ $(document).ready(function () {
 //Monta as páginas de Cabeçalho e Rodapé:
 $(document).ready(function () {
     // *** Linha abaixo foi alterada ***
-    $('#header').load("./paginas/includes/header.html");
-    $('#footer').load("./paginas/includes/footer.html");
+    $('#header').load("../paginas/includes/header.html");
+    $('#footer').load("../paginas/includes/footer.html");
 });
 // Outra forma de montar uma página:
 // $(document).ready(function () {
