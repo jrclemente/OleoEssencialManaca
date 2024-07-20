@@ -13,7 +13,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     // *** Linha abaixo foi alterada ***
     let inicioDir = '.'
-    if(pathName != "index.html"){
+    if(pathName != "/index.html"){
         inicioDir = '..'
     }
     $('#header').load(`${inicioDir}/paginas/includes/header.html`);
