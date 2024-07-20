@@ -1,4 +1,6 @@
 // import { AnoAtual } from './util.js';
+let pathName = location.pathname;
+    
 
 // Controle jquery para chamar a página LGPD
 $(document).ready(function () {
@@ -10,8 +12,12 @@ $(document).ready(function () {
 //Monta as páginas de Cabeçalho e Rodapé:
 $(document).ready(function () {
     // *** Linha abaixo foi alterada ***
-    $('#header').load("../paginas/includes/header.html");
-    $('#footer').load("../paginas/includes/footer.html");
+    let inicio = '.'
+    if(pathName != "index.html"){
+        inicio = '..'
+    }
+    $('#header').load(`${inicio}/paginas/includes/header.html`);
+    $('#footer').load(`${inicio}/paginas/includes/footer.html`);
 });
 // Outra forma de montar uma página:
 // $(document).ready(function () {
