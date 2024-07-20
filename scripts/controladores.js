@@ -1,6 +1,6 @@
 // import { AnoAtual } from './util.js';
 let pathName = location.pathname;
-    
+ console.log(pathName)   
 
 // Controle jquery para chamar a página LGPD
 $(document).ready(function () {
