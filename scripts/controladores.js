@@ -16,7 +16,7 @@ $(document).ready(function () {
     if((pathName != "/OleoEssencialManaca/index.html") && (pathName != "/OleoEssencialManaca/")){
         inicioDir = '..'
     }
-    const nomeRepo = 'OleoEssencialManaca';
+    const nomeRepo = './OleoEssencialManaca';
     $('#header').load(`${nomeRepo}/paginas/includes/header.html`);
     $('#footer').load(`${nomeRepo}/paginas/includes/footer.html`);
 });
