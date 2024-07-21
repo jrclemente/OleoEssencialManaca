@@ -382,7 +382,7 @@ function MontaDadosLocalStorage(itemLocalStorage, ePrimeiroItem) {
     //#region Dados do Produto
 
     //Imagem:    
-    itemImagem.innerHTML = itemLocalStorage.imagem;
+    itemImagem.innerHTML = `.${itemLocalStorage.imagem}`;
     divProduto.appendChild(itemImagem);
 
     //Código:
