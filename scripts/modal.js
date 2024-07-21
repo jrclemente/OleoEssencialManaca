@@ -66,7 +66,7 @@ function FecharPopUp(tipoMens) {
         modal.style.display = 'none';
         modal.remove();
         if (tipoMens == 2) {
-            location.href = '../../index.html';
+            location.href = './index.html';
         }
     }
 }
