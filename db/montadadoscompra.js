@@ -278,7 +278,7 @@ function MontaDadosCompra(objProduto) {
         itemImagem.decoding = 'async';
         itemImagem.width = 200;
         itemImagem.height = 200;
-        itemImagem.src = `/${objProduto.imagem}`;
+        itemImagem.src = `./${objProduto.imagem}`;
         itemImagem.id = 'img';
         divProduto.append(itemImagem);
 
