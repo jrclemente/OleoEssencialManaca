@@ -543,7 +543,7 @@ function ExcluiCompra(event) {
             const cardProdutoEX = document.querySelector('.carrinho-compra');
             if ((cardProdutoEX != null) && (typeof cardProdutoEX != "undefined")) {
                 cardProdutoEX.remove();
-                location.href = '../../index.html';/* Volta para página principal */
+                location.href = './index.html';/* Volta para página principal */
             }
         }
     }
