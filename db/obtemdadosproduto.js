@@ -167,7 +167,7 @@ function MontaDadosProduto(objProduto) {
     itemImagem.decoding = 'async';
     itemImagem.width = 200;
     itemImagem.height = 200;
-    itemImagem.src = `/${objProduto.imagem}`;
+    itemImagem.src = `./${objProduto.imagem}`;
     secaoDivCard.append(itemImagem);
     //Código:
     itemCodigo.innerText = `Código: ${objProduto.id}`;
