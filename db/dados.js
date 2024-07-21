@@ -5,6 +5,7 @@ function GeraImagem(descricao) {
     let inicio = dirApp.indexOf('indice.html'),
         dirImagem = dirApp.substring(0, (inicio)).concat('imagens/'),
         img = `${dirImagem}${descricao}`;
+    console.log(img);
     return img;
 }
 
