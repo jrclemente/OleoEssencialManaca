@@ -1,5 +1,6 @@
 function GeraImagem(descricao) {
     const dirApp = location.pathname;
+    console.log(dirApp);
     // Obtem o diretório onde se encontra a aplicação principal e montar o diretório da imagem
     let inicio = dirApp.indexOf('indice.html'),
         dirImagem = dirApp.substring(0, (inicio)).concat('imagens/'),
