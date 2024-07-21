@@ -13,7 +13,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     // *** Linha abaixo foi alterada ***
     let inicioDir = '.'
-    if(pathName != "/OleoEssencialManaca/index.html"){
+    if((pathName != "/OleoEssencialManaca/index.html") && (pathName != "/OleoEssencialManaca/")){
         inicioDir = '..'
     }
     $('#header').load(`${inicioDir}/paginas/includes/header.html`);
