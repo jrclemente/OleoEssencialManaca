@@ -13,12 +13,12 @@ $(document).ready(function () {
 $(document).ready(function () {
     // *** Linha abaixo foi alterada ***
     let inicioDir = '.'
-    if((pathName != "/OleoEssencialManaca/index.html") && (pathName != "/OleoEssencialManaca/")){
-        inicioDir = '..'
-    }
+    // if((pathName != "/OleoEssencialManaca/index.html") && (pathName != "/OleoEssencialManaca/")){
+    //     inicioDir = '..'
+    // }
     const nomeRepo = './OleoEssencialManaca';
-    $('#header').load(`${nomeRepo}/paginas/includes/header.html`);
-    $('#footer').load(`${nomeRepo}/paginas/includes/footer.html`);
+    $('#header').load(`${inicioDir}/paginas/includes/header.html`);
+    $('#footer').load(`${inicioDir}/paginas/includes/footer.html`);
 });
 // Outra forma de montar uma página:
 // $(document).ready(function () {
