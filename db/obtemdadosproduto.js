@@ -149,7 +149,7 @@ function MontaDadosProduto(objProduto) {
     itemComprar.className = 'btn-verProduto';
     itemComprar.text = 'COMPRAR';
     // itemComprar.href = '/paginas/carrinho.html';
-    itemComprar.href = `/paginas/carrinho.html?id=${objProduto.id}`
+    itemComprar.href = `./paginas/carrinho.html?id=${objProduto.id}`
 
     //Cria elemento para Qtde Produto x Total - Compra
     // const sectionCarrinho = document.createElement('section')
