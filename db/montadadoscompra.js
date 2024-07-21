@@ -440,7 +440,7 @@ function ObterElementosOutraPagina() {
 
 //#region  Processos de Fechar/Excluir Compra/Atualização Subtotal
 function FecharCompra() {
-    location.href = '../../index.html';
+    location.href = './index.html';
 }
 
 function ExcluiCompra(event) {
