@@ -8,6 +8,7 @@ function AnoAtual() {
 
 function GeraImagem(imagem) {
     const dirApp = location.pathname;
+    console.log(dirApp)   
     /* Obtém o diretório onde se encontra a aplicação principal e monta o diretório para obter a imagem do seu respectivo diretório.
     */
     let inicio = dirApp.indexOf('indice.html'),
