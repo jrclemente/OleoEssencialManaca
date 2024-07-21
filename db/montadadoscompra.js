@@ -212,7 +212,7 @@ if (!isEmptyObject(objProduto)) {
         const linkOfertas = document.createElement('a');
         linkOfertas.classList = 'linkOfertas';
         linkOfertas.innerHTML = 'Compre ofertas do dia';
-        linkOfertas.href = '../index.html';
+        linkOfertas.href = './index.html';
         secaoDivCompra.append(linkOfertas);
         const tpAcaoBTN = 3;
         const btnLogin = GeraBtnAcao('Faça Login na sua Conta', 'btn-LoginConta', '', tpAcaoBTN, 'Login', 'paginas/login.html');
