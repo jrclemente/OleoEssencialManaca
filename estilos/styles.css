@@ -27,7 +27,8 @@ html {
 body {
     font-family: 'Roboto', Arial, sans-serif;
     /* Cores em degradê */
-    background-image: linear-gradient(to right, #98c5e3, #1772d9);
+/*     background-image: linear-gradient(to right, #98c5e3, #1772d9); */
+    background: linear-gradient(to right, #E8E8CA, #D8CE8F);
 }
 
 .principal,
