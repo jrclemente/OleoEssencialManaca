@@ -166,3 +166,40 @@ input[type="submit"]:hover {
     /* background: #4ab3c6; */
     background: rgba(9, 218, 30, 0.847);
 }
+
+@media (max-width: 800px) {
+
+    .campos-obrigatorio {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .dados-pessoais {
+        width: 350px;
+        margin-top: 5rem;
+    }
+
+    #email_cad {
+        width: 25rem;
+    }
+
+    .endereco {
+        width: 350px;
+        margin-top: 5rem;
+    }
+
+    .endereco textarea {
+        width: 300px;
+        resize: none;
+    }
+
+    #logradouro_Cad {
+        width: 30rem;
+    }
+
+    .enviar-cadastro {
+        margin-top: 1rem;
+        margin-bottom: 18rem;
+    }
+}
