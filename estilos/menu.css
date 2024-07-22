@@ -128,3 +128,19 @@ header {
     width: auto;
     height: auto;
 }
+
+/* iPhone 14 Pro Max */
+@media (max-width: 430px) {
+    header {
+        flex: 50%;
+        flex-wrap: wrap;
+    }
+
+    .login-carrinho {
+        flex: 50%;
+    }
+
+    .login-menu {
+        flex: 50%;
+    }
+}
