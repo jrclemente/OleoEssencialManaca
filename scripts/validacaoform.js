@@ -513,6 +513,9 @@ function ValidaDados(event) {
             inputCorretos.complemento = true;
             itensValidacao[13].valido = true;
         }
+    }else {
+        inputCorretos.complemento = true;
+        itensValidacao[13].valido = true;
     }
     //#endregion
 
