@@ -43,9 +43,11 @@ body {
 }
 
 .principal-sobre{
-    padding-top: 140px;
+    padding-top: 100px;
 }
-
+.sobreOleo {
+        margin-bottom: 15rem;
+}
 .principal {
     margin-bottom: 100px;
 }
