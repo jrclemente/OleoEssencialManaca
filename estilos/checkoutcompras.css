@@ -158,6 +158,15 @@ hr {
     }
 
     .col-25 {
+        margin-top: 10rem;
+        margin-bottom: 2rem;
+    }
+
+    .col-75{
+        margin-bottom: 5rem;
+    }
+
+    .btnCobranca{
         margin-bottom: 2rem;
     }
 }
