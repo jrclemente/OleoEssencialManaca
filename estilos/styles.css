@@ -82,6 +82,24 @@ body {
     font-size: 1.5rem
 }
 
+.sobreNos {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.sobreOleo {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
 /*  */
 
 /* Estilizando todos os links de âncora */
