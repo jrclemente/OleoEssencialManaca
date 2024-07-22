@@ -189,8 +189,7 @@ footer {
 @media (max-width: 800px) {
 
     .principal,
-    .principal-produtos,
-    .principal-sobre,
+    .principal-produtos,    
     .principal-politica,
     .principal-login,
     .principal-cadastro,
@@ -199,6 +198,10 @@ footer {
     .politicaPrivacidade {
         /* Para que os itens fiquem abaixo do cabeçalho, quando este é definido como fixo(position: fixed) */
         padding-top: 28rem;
+    }
+
+    .principal-sobre{
+        padding-top: 20rem;
     }
 
     .sobreOleo {
