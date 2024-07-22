@@ -32,7 +32,6 @@ body {
 
 .principal,
 .principal-produtos,
-.principal-sobre,
 .principal-politica,
 .principal-login,
 .principal-cadastro,
@@ -41,6 +40,10 @@ body {
 .politicaPrivacidade {
     /* Para que os itens fiquem abaixo do cabeçalho, quando este é definido como fixo(position: fixed) */
     padding-top: 170px;
+}
+
+.principal-sobre{
+    padding-top: 140px;
 }
 
 .principal {
@@ -198,6 +201,10 @@ footer {
     .politicaPrivacidade {
         /* Para que os itens fiquem abaixo do cabeçalho, quando este é definido como fixo(position: fixed) */
         padding-top: 28rem;
+    }
+
+    .principal-sobre{
+    padding-top: 16rem;
     }
 
     .sobreOleo {
