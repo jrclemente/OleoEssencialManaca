@@ -185,3 +185,23 @@ footer {
     border-radius: 5px;
     padding: 1rem 2.6rem;
 }
+
+@media (max-width: 430px) {
+
+    .principal,
+    .principal-produtos,
+    .principal-sobre,
+    .principal-politica,
+    .principal-login,
+    .principal-cadastro,
+    .principal-carrinho,
+    .termoUso,
+    .politicaPrivacidade {
+        /* Para que os itens fiquem abaixo do cabeçalho, quando este é definido como fixo(position: fixed) */
+        padding-top: 28rem;
+    }
+
+    .sobreOleo {
+        margin-bottom: 15rem;
+    }
+}
